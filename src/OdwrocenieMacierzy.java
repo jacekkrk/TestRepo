@@ -1,4 +1,5 @@
 public class OdwrocenieMacierzy {
+    int testPole;
     public static void main(String[] args) {
 
         int [] maciorka = new int [] {1 , 3 , 6 , 9 , 2 , 12 ,5 , 55 ,9 };

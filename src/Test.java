@@ -11,6 +11,7 @@ public class Test {
     static int liczbaWierszy = 10;
     static int[] zadanie = {1 , 3 ,5 } ;
 
+
     public static void main(String[] args) {
         for (int i = 0; i <= rangeNumber; i++) {
 
@@ -27,7 +28,9 @@ public class Test {
             }
 
         }
-
+        OdwrocenieMacierzy ddd = new OdwrocenieMacierzy();
+        ddd.testPole = 10; 
+        
   int lenght = zadanie.length;
         System.out.println(lenght);}
 }
