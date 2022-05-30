@@ -9,7 +9,7 @@ public class Test {
     static int rangeNumber = 1324;
     static int displayNumberInLinie = 10;
     static int liczbaWierszy = 10;
-    static int[] zadanie = {1 , 3 ,5 } ;
+    static int[] zadanie = {1, 3, 5};
 
 
     public static void main(String[] args) {
@@ -28,12 +28,24 @@ public class Test {
             }
 
         }
-        OdwrocenieMacierzy ddd = new OdwrocenieMacierzy();
+  /*      OdwrocenieMacierzy ddd = new OdwrocenieMacierzy();
         ddd.testPole = 10; 
         
   int lenght = zadanie.length;
-        System.out.println(lenght);}
+        System.out.println(lenght); */
+
+
+        AndroidApp NewAndro = new AndroidApp("aaa");
+        NewAndro.setTime(15);
+        NewAndro.appInfo("Windows NT ");
+
+
+
+    }
 }
+
+
+
 
 
 
