@@ -35,10 +35,6 @@ public class Test {
         System.out.println(lenght); */
 
 
-        AndroidApp NewAndro = new AndroidApp("aaa");
-        NewAndro.setTime(15);
-        NewAndro.appInfo("Windows NT ");
-
 
 
     }
