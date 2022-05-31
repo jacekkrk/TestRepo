@@ -2,6 +2,8 @@ public class App {
 
     public String name , test;
 public int kx;
+public String janek;
+
 
     public App( String name) {
 
